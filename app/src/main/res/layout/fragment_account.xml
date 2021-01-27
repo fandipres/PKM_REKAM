@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountFragment"
+    style="@style/noActionBar">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_500">
+
+        <ImageView
+            android:id="@+id/imgUser"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="@dimen/antarElemen"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="@dimen/antarElemen"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/namaUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/imgUser"
+            android:text="Nama Lengkap"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titleText"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/emailUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namaUser"
+            android:layout_toRightOf="@id/imgUser"
+            android:text="user@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normalText"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnPesanan"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesanan Saya"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"></Button>
+
+        <Button
+            android:id="@+id/btnBantuan"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pusat Bantuan"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"></Button>
+
+        <Button
+            android:id="@+id/btnKeluar"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keluar"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"></Button>
+    </LinearLayout>
+
+</LinearLayout>

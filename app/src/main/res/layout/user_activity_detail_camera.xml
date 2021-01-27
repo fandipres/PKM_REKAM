@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDetailCameraActivity">
+
+        <ImageView
+            android:background="@drawable/border_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cam_canon_60d"></ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginPost">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kamera Canon 60D"
+                android:textColor="@color/black"
+                android:textSize="@dimen/titleText"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="DSLR"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:text="Mulai dari Rp 150.000 / Hari"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginPost">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rincian Spesifikasi :"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/rincianKanan"
+                android:layout_height="wrap_content"
+                android:text="Megapixel"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18MP"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/rincianKanan"
+                android:layout_height="wrap_content"
+                android:text="Tipe Sensor"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CMOS"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/rincianKanan"
+                android:layout_height="wrap_content"
+                android:text="Resolusi Video"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Full  HD"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/rincianKanan"
+                android:layout_height="wrap_content"
+                android:text="Ukuran Sensor"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="22.3 x 14.9 mm"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/rincianKanan"
+                android:layout_height="wrap_content"
+                android:text="Berat"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="755g"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/rincianKanan"
+                android:layout_height="wrap_content"
+                android:text="Dimensi"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="145 x 106 x 79mm"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginPost"
+            android:text="Untuk lebih memaksimalkan hasil jepretan Anda menggunakan Canon EOS 60D, Canon menanamkan beberapa fitur menarik padanya. Pertama Anda akan mendapatkan fitur HD Recording yang memungkinkan Anda untuk merekam video dengan kualitas Full HD atau 1080p. Kedua terdapat juga fitur Image Stabilization yang akan membantu Anda menangkap gambar dengan lebih jelas dan tidak blur."
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="pembayaranSewa"
+                android:layout_gravity="bottom"
+                android:text="Sewa Sekarang"></Button>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserRegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/marginPost"
+        android:layout_marginTop="@dimen/marginAtasPost"
+        android:layout_marginRight="@dimen/marginPost"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleText"></TextView>
+
+        <TextView
+            android:paddingBottom="@dimen/marginPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lengkapi data berikut ini dan rental kamera idamanmu."
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/antarElemen"
+            android:text="Data Diri"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/namaLengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <EditText
+            android:id="@+id/alamatEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <TextView
+            android:id="@+id/alamatEmail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/errorText"
+            android:textColor="@color/red"
+            android:textSize="@dimen/errorText"></TextView>
+
+        <EditText
+            android:id="@+id/kataSandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <EditText
+            android:id="@+id/kataSandi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ulangi Password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <CheckBox
+            android:id="@+id/showHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Password"></CheckBox>
+
+        <TextView
+            android:id="@+id/kataSandi3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/errorText"
+            android:textColor="@color/red"
+            android:textSize="@dimen/errorText"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/antarElemen"
+            android:text="Nomor Handphone"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:id="@+id/nomorHandphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Contoh: 081234567890"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <Button
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/antarElemen"
+            android:onClick="buatAkun"
+            android:text="Buat Akun"></Button>
+    </LinearLayout>
+</LinearLayout>

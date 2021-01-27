@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminUpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/marginPost"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/idKamera"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="ID Kamera"
+                android:textSize="@dimen/hintText"></EditText>
+
+            <Button
+                android:onClick="searchKamera"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Search"></Button>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/antarElemen"
+            android:text="Data Kamera :"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"></TextView>
+
+        <RelativeLayout
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:onClick="updateKamera"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Update"></Button>
+
+            <Button
+                android:onClick="deleteKamera"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="Delete"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

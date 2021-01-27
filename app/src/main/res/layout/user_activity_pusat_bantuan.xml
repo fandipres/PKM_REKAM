@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserPusatBantuanActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/marginPost">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAQ"
+            android:textSize="@dimen/titleText"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Apa itu REKAM?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="REKAM merupakan aplikasi penyewaan peralatan kamera berbasis mobile yang memudahkan kamu dalam melakukan penyewaan alat-alat fotografi.">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Kenapa produk yang ditawarkan masih sangat sedikit?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="Mohon bersabar ya. Hal ini dikarenakan REKAM masih menjalin kerja-sama dengan beberapa pihak penyedia jasa penyewaan kamera.">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Apakah peralatan yang ditawarkan terjamin?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="Pastinya. Hal ini dikarenakan kami hanya menjalin kerja-sama dengan usaha-usaha penyewaan kamera konvensional dengan reputasi yang baik.">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Bagaimana jika kamera yang saya terima sudah dalam kondisi rusak?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="Silahkan langsung kirimkan kembali kamera tersebut. Tim kami akan menginvestigasi penyebab kerusakan.">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Dikirim melalui apa kamera yang saya sewa?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="Terdapat beberapa opsi pengiriman yang saat ini tersedia, yaitu COD, Gojek serta Grab.">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Bagaimana jika kamera yang saya sewa tidak sengaja saya rusak?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="Mohon maaf, kamu sebagai pihak penyewa wajib membayarkan sejumlah uang guna memperbaiki kamera tersebut yang besaran biayanya akan dikalkulasi oleh tim REKAM.">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Bagaimana cara menyewakan kamera di REKAM ini?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="Silahkan hubungi admin REKAM melalui media sosial REKAM ya, nantinya pihak kami akan mendatangi kamu untuk informasi kerja-sama lebih lanjut.">
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:text="Bagaimana jika saya lupa password akun saya?">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTextFAQ"
+            android:text="Silahkan gunakan fitur lupa password, lalu panduan pemulihan akun akan dikirimkan ke alamat email yang kamu gunakan.">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

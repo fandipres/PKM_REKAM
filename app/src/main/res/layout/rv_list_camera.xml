@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_shadow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/marginPost">
+
+        <ImageView
+            android:id="@+id/dataGambar"
+            android:layout_width="@dimen/lebarAdminMenu"
+            android:layout_height="@dimen/tinggiAdminMenu"></ImageView>
+
+        <TextView
+            android:id="@+id/dataNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_toRightOf="@id/dataGambar"
+            android:text="NAMA KAMERA"></TextView>
+
+        <TextView
+            android:id="@+id/dataBiaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dataNama"
+            android:layout_margin="@dimen/marginPost"
+            android:layout_toRightOf="@id/dataGambar"
+            android:text="Rp 0"></TextView>
+
+        <TextView
+            android:id="@+id/dataTipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/marginPost"
+            android:text="TIPE"></TextView>
+    </RelativeLayout>
+</LinearLayout>

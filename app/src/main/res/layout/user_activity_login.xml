@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/marginPost"
+        android:layout_marginTop="@dimen/marginAtasPost"
+        android:layout_marginRight="@dimen/marginPost"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleText"></TextView>
+
+        <TextView
+            android:paddingBottom="@dimen/marginPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silahkan masuk dengan akun yang kamu miliki."
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <EditText
+            android:id="@+id/alamatEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/antarElemen"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <EditText
+            android:id="@+id/kataSandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <CheckBox
+            android:id="@+id/showHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Password"></CheckBox>
+
+        <Button
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="masukAkun"
+            android:text="Masuk"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginPost"
+            android:onClick="lupaPassword"
+            android:text="Lupa Password?"
+            android:textAlignment="center"
+            android:textColor="@color/orange_700"
+            android:textSize="@dimen/normalText"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/marginPost"
+                android:onClick="masukAdmin"
+                android:text="Masuk sebagai Admin"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/darkgray"
+                android:textSize="@dimen/normalText"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

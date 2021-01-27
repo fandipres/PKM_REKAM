@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminMainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_500"
+        android:text="Kelola Produk"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titleText"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnListKamera"
+            android:layout_width="@dimen/lebarAdminMenu"
+            android:layout_height="@dimen/tinggiAdminMenu"
+            android:layout_margin="@dimen/marginPost"
+            android:drawableTop="@drawable/list_camera"
+            android:onClick="listKamera"
+            android:text="List Kamera"
+            android:textSize="@dimen/smallTextFAQ" />
+
+        <Button
+            android:id="@+id/btnAddKamera"
+            android:layout_width="@dimen/lebarAdminMenu"
+            android:layout_height="@dimen/tinggiAdminMenu"
+            android:layout_margin="@dimen/marginPost"
+            android:drawableTop="@drawable/add_camera"
+            android:onClick="addKamera"
+            android:text="Tambah Kamera"
+            android:textSize="@dimen/smallTextFAQ" />
+
+        <Button
+            android:id="@+id/btnUpdateKamera"
+            android:layout_width="@dimen/lebarAdminMenu"
+            android:layout_height="@dimen/tinggiAdminMenu"
+            android:layout_margin="@dimen/marginPost"
+            android:drawableTop="@drawable/update_camera"
+            android:onClick="updateKamera"
+            android:text="Update Kamera"
+            android:textSize="@dimen/smallTextFAQ" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_500"
+        android:text="Menu Lain"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titleText"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnListTransaksi"
+            android:layout_width="@dimen/lebarAdminMenu"
+            android:layout_height="@dimen/tinggiAdminMenu"
+            android:layout_margin="@dimen/marginPost"
+            android:drawableTop="@drawable/list_transaction"
+            android:onClick="listTransaksi"
+            android:text="Transaksi"
+            android:textSize="@dimen/smallTextFAQ" />
+
+        <Button
+            android:layout_width="@dimen/lebarAdminMenu"
+            android:layout_height="@dimen/tinggiAdminMenu"
+            android:layout_margin="@dimen/marginPost"
+            android:drawableTop="@drawable/log_out"
+            android:onClick="logOut"
+            android:text="Keluar"
+            android:textSize="@dimen/smallTextFAQ" />
+    </LinearLayout>
+</LinearLayout>

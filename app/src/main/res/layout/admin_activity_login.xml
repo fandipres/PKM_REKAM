@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLoginActivity"
+    android:background="@color/orange_500">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/marginAtasPost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/marginPost"
+        android:layout_marginLeft="@dimen/marginPost"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halo Admin!"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleText"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silahkan masuk dengan akun admin yang kamu miliki."
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <EditText
+            android:layout_marginTop="@dimen/antarElemen"
+            android:id="@+id/alamatEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <EditText
+            android:id="@+id/kataSandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <CheckBox
+            android:id="@+id/showHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Password"></CheckBox>
+
+        <Button
+            android:theme="@style/panelAdmin"
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="masukAkun"
+            android:text="Masuk"></Button>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

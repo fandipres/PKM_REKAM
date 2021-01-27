@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_shadow"
+    tools:context=".UserOrderActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_500"
+        android:paddingLeft="@dimen/antarElemen"
+        android:paddingTop="@dimen/marginPost"
+        android:paddingRight="@dimen/antarElemen"
+        android:paddingBottom="@dimen/marginPost"
+        android:text="ID TRANSAKSI : U001T001"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normalText"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginPost"
+        android:layout_marginRight="@dimen/marginPost">
+
+        <ImageView
+            android:id="@+id/dataGambar"
+            android:layout_width="@dimen/lebarAdminMenu"
+            android:layout_height="@dimen/tinggiAdminMenu"
+            android:src="@drawable/cam_canon_60d"></ImageView>
+
+        <TextView
+            android:id="@+id/dataNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginTop="@dimen/marginPost"
+            android:layout_toRightOf="@id/dataGambar"
+            android:text="Kamera Canon 60D"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:id="@+id/dataBiaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dataNama"
+            android:layout_margin="@dimen/marginPost"
+            android:layout_toRightOf="@id/dataGambar"
+            android:text="Rp 150.000 / Hari"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:id="@+id/dataTipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/marginPost"
+            android:text="DSLR"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:id="@+id/textRentalMulai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dataBiaya"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_toRightOf="@id/dataGambar"
+            android:text="Tanggal Rental :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:id="@+id/textTanggalRental"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textRentalMulai"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_toRightOf="@id/dataGambar"
+            android:text="15 Januari 2021 - 17 Januari 2021"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTanggalRental"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_toRightOf="@id/dataGambar"
+            android:text="Total Biaya : Rp 300.000"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificationFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_500"
+        android:padding="@dimen/marginPost"
+        android:text="Notifikasi"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titleText"
+        android:textStyle="bold" />
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginPost"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginPost"
+            android:text="Pengguna Baru"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halo! Selamat bergabung bersama REKAM, silahkan pilih peralatan fotografi yang kamu butuhkan ya."
+            android:textSize="@dimen/smallTextFAQ"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginPost"
+            android:text="Sistem"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email telah terverifikasi."
+            android:textSize="@dimen/smallTextFAQ"></TextView>
+    </LinearLayout>
+</LinearLayout>

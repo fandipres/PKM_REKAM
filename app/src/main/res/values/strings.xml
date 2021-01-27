@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">REKAM</string>
+    <string-array name="tipe_kamera">
+        <item>DSLR</item>
+        <item>Mirrorless</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="produk_kamera">
+        <item>Canon 1000D</item>
+        <item>Canon 1100D</item>
+        <item>Canon 500D</item>
+        <item>Canon 550D</item>
+        <item>Canon 5D MK II</item>
+        <item>Canon 600D</item>
+        <item>Canon 60D</item>
+        <item>Canon 650D</item>
+        <item>Canon 70D</item>
+        <item>Canon 7D</item>
+        <item>Canon G12</item>
+        <item>GoPro Hero 3</item>
+        <item>MD 10000</item>
+        <item>Nikon D3100</item>
+        <item>Sony MC 1500</item>
+    </string-array>
+    <string-array name="harga_kamera">
+        <item>Rp 60.000</item>
+        <item>Rp 75.000</item>
+        <item>Rp 75.000</item>
+        <item>Rp 90.000</item>
+        <item>Rp 250.000</item>
+        <item>Rp 100.000</item>
+        <item>Rp 135.000</item>
+        <item>Rp 125.000</item>
+        <item>Rp 155.000</item>
+        <item>Rp 175.000</item>
+        <item>Rp 125.000</item>
+        <item>Rp 125.000</item>
+        <item>Rp 85.000</item>
+        <item>Rp 125.000</item>
+        <item>Rp 150.000</item>
+    </string-array>
+    <string-array name="media_pembayaran">
+        <item>Bank Transfer</item>
+        <item>Gopay</item>
+        <item>Link Aja</item>
+        <item>OVO</item>
+        <item>ShopeePay</item>
+    </string-array>
+    <string-array name="media_pengiriman">
+        <item>COD</item>
+        <item>Gojek</item>
+        <item>Grab</item>
+        <item>Pos Kilat</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserRecoveryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/marginPost"
+        android:layout_marginTop="@dimen/marginAtasPost"
+        android:layout_marginRight="@dimen/marginPost"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lupa Password?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleText"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/marginPost"
+            android:text="Kamu dapat mereset password di sini."
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <EditText
+            android:id="@+id/alamatEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/antarElemen"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/hintText"></EditText>
+
+        <Button
+            android:layout_width="@dimen/button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/antarElemen"
+            android:onClick="resetPassword"
+            android:text="Reset"></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserPaymentActivity">
+
+    <ImageView
+        android:background="@drawable/border_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cam_canon_60d"></ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginPost">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kamera Canon 60D"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleText"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="DSLR"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:text="Rp 150.000 / Hari"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginPost"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rincian Sewa :"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normalText"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Max penyewaan 7 hari"
+            android:textColor="@color/red"
+            android:textSize="@dimen/normalText"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost">
+
+            <TextView
+                android:id="@+id/textTglMulai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Tanggal Mulai"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:id="@+id/txtMulai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textTglMulai"
+                android:text=""
+                android:textColor="@color/black"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:onClick="dateMulai"
+                android:text="Choose"></Button>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost">
+
+            <TextView
+                android:id="@+id/textTglAkhir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Tanggal Akhir"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:id="@+id/txtAkhir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textTglAkhir"
+                android:text=""
+                android:textColor="@color/black"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:onClick="dateAkhir"
+                android:text="Choose"></Button>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost">
+
+            <TextView
+                android:id="@+id/txtPembayaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Media Pembayaran"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <Spinner
+                android:id="@+id/spinnerPembayaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost">
+
+            <TextView
+                android:id="@+id/txtPengiriman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Media Pengiriman"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></TextView>
+
+            <Spinner
+                android:id="@+id/spinnerPengiriman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"></Spinner>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingBottom="@dimen/antarElemen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginPost"
+            android:layout_marginRight="@dimen/marginPost">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Total Biaya"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/totalBiaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/normalText"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:onClick="prosesPenyewaan"
+        android:text="Proses Penyewaan"></Button>
+</LinearLayout>

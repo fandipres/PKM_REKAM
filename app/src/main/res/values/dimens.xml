@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button">160dp</dimen>
+    <dimen name="hintText">16dp</dimen>
+    <dimen name="normalText">14dp</dimen>
+    <dimen name="titleText">20dp</dimen>
+    <dimen name="marginPost">10dp</dimen>
+    <dimen name="errorText">10dp</dimen>
+    <dimen name="smallText">8dp</dimen>
+    <dimen name="smallTextFAQ">10dp</dimen>
+    <dimen name="lebarAdminMenu">100dp</dimen>
+    <dimen name="rincianKanan">125dp</dimen>
+    <dimen name="tinggiAdminMenu">130dp</dimen>
+    <dimen name="antarElemen">20dp</dimen>
+    <dimen name="marginAtasPost">30dp</dimen>
+</resources>
